@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(250, 245, 245);
+}
+
+.container {
+    padding: 50px 0;
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location {
+    background: linear-gradient(to left, rgb(247, 228, 194), white);
+    border: 1px solid rgb(218, 213, 213);
+    border-radius: 20px;
+    height: 25vh;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 5px 5px rgb(231, 228, 228);
+    flex-wrap: wrap;
+}
+
+.degree {
+    font-size: 3.5em;
+    width: 30%;
+}
+
+.hours {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hourly {
+    background-color: white;
+    border: 1px solid rgb(218, 213, 213);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(231, 228, 228);
+    height: 25vh;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.daily {
+    background-color: white;
+    border: 1px solid rgb(218, 213, 213);
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px 5px rgb(231, 228, 228);
+    height: 25vh;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
